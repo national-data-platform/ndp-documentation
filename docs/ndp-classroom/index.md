@@ -5,6 +5,8 @@
 
 The National Data Platform aims to enhance AI learning experience through the NDP Classroom experience. NDP Classroom is designed to support courses that require advanced computational resources for AI-based projects. It provides access to high-performance computing capabilities and a scalable infrastructure, allowing educators and students to tackle complex AI tasks and handle large datasets.
 
+NDP Classroom is also tailored for hosting data challenges. Its robust infrastructure and comprehensive resources create an ideal environment for organizing and participating in data-centric competitions, effectively supporting innovation and practical problem-solving skills in AI.
+
 ## Features
 
 <img src="images/classroom-flow.png">
