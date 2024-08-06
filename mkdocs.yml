@@ -14,22 +14,21 @@ nav:
   - Jupyter:
     - NDP Jupyterhub: jupyter/jupyterhub.md
     - NDP Widget: jupyter/widget.md
-    - CondaStore: jupyter/condastore.md
+    - GitHub Extension: jupyter/github-extension.md
+    - Conda Extension: jupyter/conda-extension.md
   - Workspace: 
     - NDP Workspace: workspace/ndp-workspace.md
     - Set Up: workspace/set-up.md
     - Groups: workspace/groups.md
-  - NDP POP:
-    - NDP POP: pop/index.md
+  - NDP PoP:
+    - NDP PoP: pop/index.md
   - Education:
     - NDP Classroom:
+        - NDP Classroom: ndp-classroom/index.md
         - Set Up: ndp-classroom/set-up.md
     - Courselets:
-        - Courselet 1: courselets/c1.md
-        - Courselet 2: courselets/c2.md
-  - Tutorials: 
-    - Tutorial1 : tutorials/tutorial1.md
-    - Tutorial 2: tutorials/tutorial2.md
+        - NDP Courselets: courselets/ndp-courselets.md
+        - Sample Courselet: courselets/sample-courselet.md
   - Services: 
     - MLFlow: services/mlflow.md
     - LLM: services/llm.md
