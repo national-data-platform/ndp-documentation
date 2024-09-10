@@ -15,14 +15,18 @@ nav:
     - NDP Jupyterhub: jupyter/jupyterhub.md
     - NDP Widget: jupyter/widget.md
     - GitHub Extension: jupyter/github-extension.md
-    - Conda Extension: jupyter/conda-extension.md
   - Workspace: 
-    - NDP Workspace: workspace/ndp-workspace.md
-    - Set Up: workspace/set-up.md
+    - NDP Workspace: workspace/index.md
+    - Tutorial: workspace/set-up.md
     - Groups: workspace/groups.md
   - NDP PoP:
     - NDP PoP: pop/index.md
-  - Education:
+  - NDP Education Hub:
+    - NDP Modules:
+        - NDP Modules: ndp-modules/index.md 
+        - Understanding NDP Modules: ndp-modules/understanding-modules.md
+        - Modules Components: ndp-modules/module-components.md
+        - Module Creation Tutorial: ndp-modules/module-tutorial.md
     - NDP Classroom:
         - NDP Classroom: ndp-classroom/index.md
         - Set Up: ndp-classroom/set-up.md
@@ -75,6 +79,7 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
