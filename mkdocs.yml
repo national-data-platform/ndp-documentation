@@ -3,7 +3,9 @@ site_url: https://nationaldataplatform.org/documentation
 
 nav:
   - Home: index.md
-  - About: general/about.md
+  - About: 
+    - About NDP: general/about.md
+    - Key Features: general/key-features.md
   - Start: 
     - Sign In: start/signin.md
   - Catalog:
