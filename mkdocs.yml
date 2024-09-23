@@ -20,7 +20,6 @@ nav:
   - Workspace: 
     - NDP Workspace: workspace/index.md
     - Tutorial: workspace/set-up.md
-    - Groups: workspace/groups.md
   - NDP PoP:
     - NDP PoP: pop/index.md
   - NDP Education Hub:
