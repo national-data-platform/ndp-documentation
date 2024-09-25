@@ -9,10 +9,8 @@ nav:
   - Start: 
     - Sign In: start/signin.md
   - Catalog:
-    - Exploring Data Catalog: catalog/exploring-data-catalog.md
+    - Exploring Data Catalog: catalog/catalog.md
     - Register your data: catalog/register-data.md
-    - Bringing your data using CKAN harvest: catalog/bringing-your-data.md
-    - Register your Open Knowledge Network: catalog/register-okn.md
   - Jupyter:
     - NDP Jupyterhub: jupyter/jupyterhub.md
     - NDP Widget: jupyter/widget.md
