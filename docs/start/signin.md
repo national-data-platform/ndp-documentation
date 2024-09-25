@@ -10,5 +10,5 @@ To get access to NDP's data and services, you must be part of a research institu
 6. After a successful sign in, you will have access to NDP's resources. 
 
 !!! info "NDP is currently restricted to users with institutional credentials"
-    ⚠️ **Important:** Current version of NDP allows registration and sign in exclusively through the 
+    Current version of NDP allows registration and sign in exclusively through the 
     use of institutional credentials via CILogon or ORCID. 
