@@ -64,7 +64,7 @@ At this point, we have added data and a source code to our workspace. Now we can
 9. With your libraries installed and the data downloaded, go to the Jupyter Notebook included in the repository folder (`NDP_PGML_EDA.ipynb`) and follow the instructions for its execution.
 
 !!! info "Environments are not persistent"
-    ⚠️ **Important:** In this alpha version of NDP, installed libraries and packages are not saved. Each time you return, you will need to reinstall the packages from your `requirements.txt` file before you can start working.
+    ⚠️ **Important:** In the current version of NDP, installed libraries and packages are not saved. Each time you return, you will need to reinstall the packages from your `requirements.txt` file before you can start working.
 
 
 In this tutorial we have created our first workspace, added resources to it and executed a Jupyter Notebook. Use NDP workspaces for the development of your projects.
