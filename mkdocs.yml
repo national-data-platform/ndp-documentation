@@ -18,22 +18,6 @@ nav:
   - Workspace: 
     - NDP Workspace: workspace/index.md
     - Tutorial: workspace/set-up.md
-  - NDP PoP:
-    - NDP PoP: pop/index.md
-  - NDP Education Hub:
-    - NDP Modules:
-        - NDP Modules: ndp-modules/index.md 
-        - Understanding NDP Modules: ndp-modules/understanding-modules.md
-        - Modules Components: ndp-modules/module-components.md
-        - Module Creation: ndp-modules/module-tutorial.md
-    - NDP Classroom:
-        - NDP Classroom: ndp-classroom/index.md
-        - Set Up: ndp-classroom/set-up.md
-  - Services: 
-    - MLFlow: services/mlflow.md
-    - LLM: services/llm.md
-  - Demos:
-    - NASA HLS Demo: demos/nasa-hls-demo.md
   - Contact: general/contact.md
 
 theme:
