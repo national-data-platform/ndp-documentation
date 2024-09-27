@@ -10,6 +10,7 @@ nav:
     - Sign In: start/signin.md
   - Catalog:
     - Exploring Data Catalog: catalog/catalog.md
+    - Advanced Search: catalog/advanced-search.md
     - Register your data: catalog/register-data.md
   - Jupyter:
     - NDP Jupyterhub: jupyter/jupyterhub.md
@@ -24,7 +25,7 @@ nav:
         - NDP Modules: ndp-modules/index.md 
         - Understanding NDP Modules: ndp-modules/understanding-modules.md
         - Modules Components: ndp-modules/module-components.md
-        - Module Creation Tutorial: ndp-modules/module-tutorial.md
+        - Module Creation: ndp-modules/module-tutorial.md
     - NDP Classroom:
         - NDP Classroom: ndp-classroom/index.md
         - Set Up: ndp-classroom/set-up.md
