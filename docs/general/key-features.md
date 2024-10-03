@@ -18,9 +18,16 @@ A centralized, web-based interface enables multiple users to work together, shar
 
 The platform is built on a robust architecture that includes a Centralized Hub for data and computing access, a PoP Factory for federated points of presence, and a suite of Standard Services such as authentication, authorization, and orchestration.
 
+#### Education Hub
+
+Hands-on NDP modules and NDP classrooms support open learning and courses that require advanced computational tools, resources, and AI-ready data, enabling students to engage with cyberinfrastructure.
+
 #### Equitable Access 
 
 One of the platform’s core principles is promoting equity by ensuring all users, regardless of background or institution, have access to high-quality data and computational tools.
+
+
+
 
 ### User Benefits
 

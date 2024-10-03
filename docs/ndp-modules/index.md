@@ -26,9 +26,4 @@ NDP modules increase the visibility of researchers. Researchers can use NDP modu
 
 ## Request a SME role
 
-NDP Modules creation and publication is limited to users with the Subject Matter Expert (SME) role. Individuals must meet the following requirements:
-
-- TBD
-- TBD
-
-To obtain the SME role, fill the [request](form).
+Soon.
