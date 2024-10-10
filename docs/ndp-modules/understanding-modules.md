@@ -8,7 +8,7 @@ The primary purpose of NDP modules is to support formal education, with two key 
 
 #### Classroom setting
 
-Within a classroom environment, NDP Modules serve as core curriculum units that are integrated into the [NDP Classroom](). The modules are designed to align with course objectives and provide students with interactive hands-on activities and assessments. In addition, NDP modules can be used to facilitate the completion of assignments, particularly those that require the use of specialized datasets or access to high-performance computing resources.
+Within a classroom environment, NDP Modules serve as core curriculum units that are integrated into the [NDP Classroom](../ndp-classroom/index.md). The modules are designed to align with course objectives and provide students with interactive hands-on activities and assessments. In addition, NDP modules can be used to facilitate the completion of assignments, particularly those that require the use of specialized datasets or access to high-performance computing resources.
 
 #### Open-Learning Resource
 When used as open-learning resources, NDP modules offer flexible, self-paced educational opportunities that can be accessed by learners outside the traditional classroom. These modules are often designed to be concise units of knowledge, focusing on specific topics or skills. However, they can also be part of a broader educational sequence. For example, an open module might be one element of a comprehensive series on streaming data, with a specific focus on visualization techniques for handling and interpreting such data.

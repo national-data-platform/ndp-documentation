@@ -1,6 +1,6 @@
 # NDP Classroom Set-up
 
-A classroom
+The general steps to create and set-up an NDP classroom are the following:
 
 1. Before you can create a classroom, you must have [set up and published your modules](../ndp-modules/module-tutorial.md).
 2. Go to the *Educator Portal* within the NDP Education Hub. 
