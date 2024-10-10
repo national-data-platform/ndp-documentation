@@ -24,11 +24,5 @@ NDP modules provide educators with the computational resources needed for advanc
 
 NDP modules increase the visibility of researchers. Researchers can use NDP modules to share their expertise and resources, reaching a broad audience of students, educators, and fellow researchers. This increased exposure can lead to new collaborations, citations, and recognition in their respective academic fields.
 
-## Request a SME role
-
-NDP Modules creation and publication is limited to users with the Subject Matter Expert (SME) role. Individuals must meet the following requirements:
-
-- TBD
-- TBD
-
-To obtain the SME role, fill the [request](form).
+!!! info
+    The creation and publication of Modules and Classrooms is limited to users with the *educator* role. Such role must be requested at `ndp@sdsc.edu`
