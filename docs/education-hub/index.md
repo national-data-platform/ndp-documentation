@@ -4,7 +4,6 @@ The National Data Platform's Education Hub aims to democratize access to advance
 
 ## Features
 
-
 - [NDP Modules](../ndp-modules/index.md): Modules are versatile learning objects that contain data, code, and additional resources that can be deployed and executed in JupyterHub. Modules are intended to provide a hands-on learning experience.
 
 - [NDP Classroom](../ndp-classroom/index.md): Classroom allows instructors to conduct their courses within NDP. Classrooms incorporate multiple modules and allow students to be assigned to groups for collaborative work.  
