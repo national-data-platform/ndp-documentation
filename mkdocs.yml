@@ -21,6 +21,7 @@ nav:
   - NDP PoP:
     - NDP PoP: pop/index.md
   - NDP Education Hub:
+    - Education Hub: education-hub/index.md
     - NDP Modules:
         - NDP Modules: ndp-modules/index.md 
         - Understanding NDP Modules: ndp-modules/understanding-modules.md
