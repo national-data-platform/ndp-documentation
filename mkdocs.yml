@@ -19,6 +19,7 @@ nav:
     - NDP Workspace: workspace/index.md
     - Tutorial: workspace/set-up.md
   - NDP Education Hub:
+    - Education Hub: education-hub/index.md
     - NDP Modules:
         - NDP Modules: ndp-modules/index.md 
         - Understanding NDP Modules: ndp-modules/understanding-modules.md
@@ -27,6 +28,8 @@ nav:
     - NDP Classroom:
         - NDP Classroom: ndp-classroom/index.md
         - Set Up: ndp-classroom/set-up.md
+    - Data Challenges:
+        - Data Challenges: ndp-data-challenges/index.md
   - Contact: general/contact.md
 
 theme:
