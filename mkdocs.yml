@@ -29,11 +29,8 @@ nav:
     - NDP Classroom:
         - NDP Classroom: ndp-classroom/index.md
         - Set Up: ndp-classroom/set-up.md
-  - Services: 
-    - MLFlow: services/mlflow.md
-    - LLM: services/llm.md
-  - Demos:
-    - NASA HLS Demo: demos/nasa-hls-demo.md
+    - Data Challenges:
+        - Data Challenges: ndp-data-challenges/index.md
   - Contact: general/contact.md
 
 theme:
