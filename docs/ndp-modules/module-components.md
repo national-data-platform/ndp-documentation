@@ -24,7 +24,7 @@ The description should consist of 2-3 paragraphs and provide an overview of the 
 
 The instructions should provide clear, step-by-step guidance on how to interact with the module. If the module includes multiple notebooks or attached resources, the instructions must clearly outline the order in which these notebooks should be completed and how to manage any complementary resources. Additionally, where applicable, the instructions should inform the learner about the expected outputs at each stage of the module, helping them understand the progression and anticipated results as they work through the content.
 
-- **Learning Objectives**
+**Learning Objectives**
 
 The learning objectives should clearly outline the skills, knowledge, and tasks that learners will acquire or accomplish upon completing the module. These objectives should be presented as bullet points, offering a concise and clear guide to what learners can expect to achieve by engaging with the module.
 

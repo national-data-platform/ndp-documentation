@@ -31,6 +31,7 @@ Before creating a module, ensure you have completed the following steps:
 7. In the **Scripts section**, attach the `.git`link to your GitHub repository. 
 8. Save your module. 
 
-### Module Submission
+### Module Publication
 
-Once you have finished the creation of your module, you can submit it to make it publicly available. Once you submit your module **you cannot make additional changes**. 
+When you are finished creating your module, you can publish it to make it available for inclusion in a classroom. Once you publish your module, **you will not be able to make any further changes**. 
+
