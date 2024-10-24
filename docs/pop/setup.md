@@ -11,6 +11,10 @@ This guide will walk you through generating a setup script for your Point of Pre
     ```bash
     pip install uvicorn
     ```
+  - **unzip** (latest version)
+    ```bash
+    sudo apt-get install unzip
+    ```
   - **PIP** (latest version) - [Install PIP](https://pip.pypa.io/en/stable/cli/pip_install/)
   - **Python 3** (latest version)
   - **Git** (latest version) - [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
