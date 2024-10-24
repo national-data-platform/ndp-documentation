@@ -40,12 +40,3 @@ Users can develop and execute workflows by interfacing with the POPs through:
 - Python Client Library: Enables Python-based interaction with the NDP services.
 
 These tools support the integration of data retrieval, processing, and analysis into user-defined workflows.
-
-### Deployment Models
-
-NDP POPs can be deployed in various environments to suit different infrastructure needs:
-
-- [Docker](https://www.docker.com/): Standalone deployment for local testing or development.
-- [Kubernetes](https://kubernetes.io/): Cluster-based deployment for scalability and load balancing.
-- Cloud: Integration with cloud platforms for enhanced accessibility and resource management.
-- HPC (High-Performance Computing): Supports intensive computation and data processing needs.
