@@ -39,7 +39,7 @@ Once logged in, locate and click on **POPs** in the sidebar or main navigation t
    ![Step 3](./images/3.png)
 
 ## Step 4: Choose POP Setup
-You will see an option to choose between POP (Point of Presence) or sciDX (Scientific Data Exchange). Select **POP** to proceed.
+ **POP** is selected by default.
 
    ![Step 4](./images/4.png)
 
@@ -47,14 +47,14 @@ You will see an option to choose between POP (Point of Presence) or sciDX (Scien
 A form will appear asking for specific details:
    - **Catalog Username**: Enter your catalog username.
    - **Catalog Password**: Enter your catalog password.
-   - **IDP Client ID**: Enter the client ID for the Identity Provider. Contact the National Data Platform IDP Admins ([Andreu](https://github.com/Andreufb), [Sergey](https://github.com/sergeygurvich)) to get this information.
-   - **IDP Client Secret**: Enter the client secret.
-   - **Realm Name**: Enter the appropriate realm name.
+  
 
    ![Step 5](./images/5.png)
 
 ## Step 6: Generate the Script
-Fill in the required fields and click on the **Generate Script** button.
+Fill in the required fields and click on the **Proceed** to Accept the Terms of Service.
+then press on the **Generate** button
+
 
    ![Step 6](./images/6.png)
 
