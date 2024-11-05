@@ -35,6 +35,10 @@ nav:
 
     - NDP Data Challenges:
         - NDP Data Challenges: ndp-data-challenges/index.md 
+  - Policies and Guidelines: 
+        - Terms of Use: policies/terms-of-use.md
+        - Privacy Policy: policies/privacy-policy.md
+        - Code of Conduct: policies/code-of-conduct.md
   - Contact: general/contact.md
 
 theme:
