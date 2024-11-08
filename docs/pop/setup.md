@@ -3,14 +3,10 @@
 This guide will walk you through generating a setup script for your Point of Presence (POP) and running it on your infrastructure. Follow these simple steps to get everything up and running smoothly.
 
 ## Requirements for Running the Script
-- **Sudo privileges**: The script assumes you have **sudo** privileges. If you are not a sudo user, you may need to manually adjust commands involving `sudo`.
-- **Tools, permissions, and ports required**:
+- **Sudo privileges**: The script requires **sudo** privileges to execute certain commands. You must be a **sudo** user; otherwise, the script will not run successfully.
+- **All necessary packages installed**: Ensure the following tools are installed on your server. The script will not run if any of these tools are missing:
   - **Docker** (latest version) - [Install Docker](https://docs.docker.com/engine/install/)
   - **Docker Compose** (latest version) - [Install Docker Compose](https://docs.docker.com/compose/install/)
-  - **Uvicorn** (latest version): Install via PIP:
-    ```bash
-    pip install uvicorn
-    ```
   - **unzip** (latest version)
     ```bash
     sudo apt-get install unzip
@@ -47,14 +43,14 @@ Once logged in, locate and click on **POPs** in the sidebar or main navigation t
 A form will appear asking for specific details:
    - **Catalog Username**: Enter your catalog username.
    - **Catalog Password**: Enter your catalog password.
+   - **Organization**: Enter you organization (eg. university of ..., AWS, etc ....)
+   - **POC**: Email address of the Point Of Contact
   
 
    ![Step 5](./images/5.png)
 
 ## Step 6: Generate the Script
-Fill in the required fields and click on the **Proceed** to Accept the Terms of Service.
-then press on the **Generate** button
-
+Fill in the required fields and click on the **Proceed** to Accept the Terms of Service. Then press on the **Generate** button.
 
    ![Step 6](./images/6.png)
 
@@ -81,20 +77,33 @@ Run the script by executing the following command:
 After the setup completes, you can access the catalog at `http://YourMachinePublicIP:8443` and the POP API at `http://YourMachinePublicIP:8000`.
 
 ## Important Note for Non-Sudo Users
-The generated script assumes that the user has **sudo** privileges. If you do not have sudo privileges, you should comment out the parts that use `sudo`. Specifically, comment out or modify the following sections:
+you will need to ask your system administrator to run the script as a sudo.
 
-- Installation commands:
-  ```bash
-  # Install necessary tools
-  install_docker
-  install_docker_compose
-  install_git
-  install_python
-  install_uvicorn
-  ensure_user_permissions
-  ```
+## Information Collected During the Setup Process
+During the setup process, the script will collect the following information:
 
-By commenting out the above sections, you will prevent the script from executing any commands that require `sudo`. However, you will need to ask your system administrator to install these packages if they are not already available on your system.
+- **Keycloak Information**:
+  - **CLIENT_ID**
+  - **REALM_NAME**
+  - **Token**
+  - **Group Name**
+  - **Organization**
+  - **POC** (Point Of Contact Email)
+  - **CKAN URL**
+  - **API Key**
+  - **POP Value** (whether POP is enabled)
+  - **Staging** (whether staging is enabled)
+
+- **System Information**:
+  - **Timestamp**
+  - **Operating System**
+  - **CPU Count**
+  - **Total RAM**
+  - **Available RAM**
+  - **Total Storage**
+  - **Available Storage**
+
+This information is used to configure and monitor your POP environment effectively.
 
 ## Need Help?
 If you encounter any issues, please refer to the documentation provided on the platform or contact support at [saleemalharir1](https://github.com/saleemalharir1).
