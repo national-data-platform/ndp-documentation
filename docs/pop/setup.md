@@ -5,6 +5,10 @@ This guide will walk you through generating a setup script for your Point of Pre
 ## Requirements for Running the Script
 - **Sudo privileges**: The script requires **sudo** privileges to execute certain commands. You must be a **sudo** user; otherwise, the script will not run successfully.
 - **All necessary packages installed**: Ensure the following tools are installed on your server. The script will not run if any of these tools are missing:
+- **jq** (latest version) - [Install jq](https://stedolan.github.io/jq/download/)
+  ```bash
+  sudo apt-get install jq
+  ```
   - **Docker** (latest version) - [Install Docker](https://docs.docker.com/engine/install/)
   - **Docker Compose** (latest version) - [Install Docker Compose](https://docs.docker.com/compose/install/)
   - **unzip** (latest version)
