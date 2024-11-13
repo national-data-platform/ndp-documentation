@@ -54,7 +54,7 @@ A form will appear asking for specific details:
    ![Step 5](./images/5.png)
 
 ## Step 6: Generate the Script
-Fill in the required fields and click on the **Proceed** to Accept the Terms of Service. Then press on the **Generate** button.
+Fill in the required fields and click on the **I understand and accept the terms and conditions** to Accept the Terms of Service. Then press on the **Generate Script** button.
 
    ![Step 6](./images/6.png)
 
@@ -70,8 +70,8 @@ On your server, open a text editor (like `nano` or `vim`) and paste the copied s
 
 ## Step 9: Run the Setup Script
 Run the script by executing the following command:
-    ```bash
-    bash setup.sh
+    ```
+    sudo bash setup.sh
     ```
     This will initiate the setup process for your POP environment. It will take around 5-6 minutes to complete the setup and configure all the connections and permissions.
 
