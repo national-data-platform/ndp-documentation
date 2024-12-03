@@ -16,6 +16,8 @@ nav:
   - Jupyter:
     - NDP Jupyterhub: jupyter/jupyterhub.md
     - NDP Widget: jupyter/widget.md
+    - Bring your own image: jupyter/bring-your-own-image.md
+    - Frequently Encountered Issues: jupyter/fei.md
   - Workspace: 
     - NDP Workspace: workspace/index.md
     - Tutorial: workspace/set-up.md
@@ -32,7 +34,6 @@ nav:
     - NDP Classroom:
         - NDP Classroom: ndp-classroom/index.md
         - Set Up: ndp-classroom/set-up.md
-
     - NDP Data Challenges:
         - NDP Data Challenges: ndp-data-challenges/index.md 
   - Policies and Guidelines: 
