@@ -41,11 +41,10 @@ To be able to setup an image and take the most advantage of it, you will need to
 
 Docker is a system that allows you to create and run applications in a customized environment called 
 [containers](https://en.wikipedia.org/wiki/Containerization_(computing)). 
-In the back, the JupyterHub service is running a Jupyter Notebook container with minimal configuration. There
 
-## Example
+## Example 
 
-In this example, we are going to use a repository with three demos developed by the team of the [Scientific Computing and Imaging Institute](https://www.sci.utah.edu/) at the University of Utah. 
+In this example, we are going to build an image designed to interact with Aerial LiDAR Scanning (ALS) and Terrestrial Laser Scanning (TLS) data. The source repository of this demo can be found [here](https://github.com/pramonettivega/lidar_demo/tree/main).
 
 **1 - Setup Docker**
 
@@ -58,37 +57,45 @@ Make sure to create a [Docker Hub](https://hub.docker.com/) account during your 
 In a local folder, write the following [Dockerfile](https://docs.docker.com/reference/dockerfile/).
 
 ```
-FROM quay.io/jupyter/base-notebook:latest 
+FROM quay.io/jupyter/datascience-notebook:latest
 
 WORKDIR /home/jovyan/work
 
 USER root
 
-RUN apt-get update && apt-get install -y \
-    git
+RUN apt-get update && apt-get install -y software-properties-common && \
+    add-apt-repository ppa:ubuntugis/ubuntugis-unstable && \
+    apt-get update
 
-RUN git clone https://github.com/national-data-platform/jupyter-notebooks
+RUN apt-get install -y \
+    git \
+    pdal \
+    libpdal-dev \
+    cmake \
+    g++ \
+    gcc \
+    libpython3-dev && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Install dependencies for Sage
-RUN pip install -r /home/jovyan/work/jupyter-notebooks/utah_demos/sage/requirements.txt
+RUN git clone https://github.com/pramonettivega/lidar_demo.git /home/jovyan/work/lidar_demo
 
-# Install dependencies for NOAA
-RUN pip install --no-cache-dir -r /home/jovyan/work/jupyter-notebooks/utah_demos/NOAA/requirements.txt
+RUN pip install --no-cache-dir -r /home/jovyan/work/lidar_demo/requirements.txt
 
-RUN cp -R ./jupyter-notebooks/utah_demos/. . && \
-    rm -rf ./jupyter-notebooks && \
-    chown -R jovyan:users /home/jovyan/work
+RUN chown -R jovyan:users /home/jovyan/work
 
 USER jovyan
 ```
 
-In this simple Dockerfile, we have done the following: 
+This Dockerfile sets up a Jupyter-based image with the necessary dependencies to work with LiDAR data using the PDAL library. The steps are as follows:
 
-1. We used a Jupyter based image `quay.io/jupyter/base-notebook:latest ` as the base for our custom image.
-2. We moved to the working directory, changed to the root user and updated the system. Additionally, we installed `git`.
-3. We cloned the National Data Platform repository with the notebooks for three different demos. 
-4. We installed the requirements for three demos (Earthscope, SAGE and NOAA).
-5. We copied the three notebooks' folders into our working directory and removed the repository, as we don't need the rest of the notebooks.
+- **Base Image:** We used the quay.io/jupyter/datascience-notebook:latest image because it is tailored for data science workflows and includes Dask, which is beneficial for handling large datasets.
+- **Switch to Root User:** The USER root command allows the installation of additional system packages.
+- **Add UbuntuGIS Repository:** The add-apt-repository ppa:ubuntugis/ubuntugis-unstable command adds a repository with updated GIS libraries, necessary for installing PDAL.
+- **Install System Dependencies:** We installed essential packages like git, pdal, and development tools (gcc, g++, cmake, etc.) needed to compile and run PDAL effectively.
+- **Clone the Repository:** The LiDAR demonstration notebook repository (pramonettivega/lidar_demo) is cloned into the work directory.
+- **Install Python Dependencies:** The requirements.txt file from the cloned repository is used to install additional Python dependencies.
+- **Set Permissions:** Ownership of the working directory is assigned to the jovyan user to allow file modifications during runtime.
+- **Switch Back to Jovyan User:** To ensure a safe execution environment, the Dockerfile switches back to the jovyan user, which is the default for Jupyter notebooks.
 
 **3 - Build the image** 
 
@@ -112,15 +119,13 @@ The *latest* tag at the end indicates the current version of the image.
 **4 - Access JupyterHub and launch a new pod using your image**
 
 Once you have pushed your image, go to [JupyterHub](https://ndp-jupyterhub.nrp-nautilus.io/hub/spawn) and paste the 
-image in the **Bring your own image** box (in this case, paste `my-dockerhub-user/demo-image:latest`).
+image in the **Bring your own image** box (in this case, paste `my-dockerhub-user/demo-image:latest`). 
 
-**5 - Execute the demos**
+**5 - Launch server and run the notebook**
 
-Once your pod is ready, go to your current folder and notice three folders associated with each of the demos. Inside each folder, you
-will find a Jupyter Notebook ready for execution.
+After launching your server, go to `root/lidar-demo/` and execute the demo notebook. 
 
 ## List of images
 
 In the following [site](https://quay.io/organization/jupyter), you can consult the full list of images from 
 [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html), which you can use as the base for your custom images.
-
