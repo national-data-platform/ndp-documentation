@@ -8,11 +8,10 @@ The National Data Platform's Education Hub aims to democratize access to advance
 
 - [NDP Classroom](../ndp-classroom/index.md): Classroom allows instructors to conduct their courses within NDP. Classrooms incorporate multiple modules and allow students to be assigned to groups for collaborative work.  
 
-- [Data Challenges](../ndp-data-challenges/index.md): Soon.
-
+- [Data Challenges](../ndp-data-challenges/hosting-a-data-challenge.md): Data Challenges are collaborative and competitive exercises designed to tackle real-world problems using NDP. Participants work individually or in teams to develope innovative, science-driven workflows.
 ## Portals
 
-- **Educator's Portal**: The Educator's Portal is the place where educators can develop and set up their modules and classrooms. Access to the Educator's Portal is obtained through credentials [requested from the NDP team](../general/contact.md).
+- **Educator's Portal**: The Educator's Portal is the place where educators can develop and set up their modules, classrooms and data challenges. Access to the Educator's Portal is obtained through credentials [requested from the NDP team](../general/contact.md).
 
 - **Learner's Portal:** The Learner's Portal manages modules, classrooms, and data challenges for students, requiring prior registration with NDP for access
 
