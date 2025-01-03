@@ -5,7 +5,7 @@ The general steps to create and set-up an NDP classroom are the following:
 1. Before you can create a classroom, you must have [set up and published your modules](../ndp-modules/module-tutorial.md).
 2. Go to the *Educator Portal* within the NDP Education Hub. 
 3. Click on *New Classroom*. 
-4. Fill in the main module information:
+4. Fill in the main clasroom information:
     - **Title of Class:** The title of your class. 
     - **Class Code:** The unique class code used in your institution's program (for example, MSCS123).
     - **Semester/Quarter:** The semester (1st, 2nd/Fall, Spring) or quarter (Fall, Winter, Spring, Summer) in which the class is taught.

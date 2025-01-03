@@ -33,5 +33,4 @@ Before creating a module, ensure you have completed the following steps:
 
 ### Module Publication
 
-When you are finished creating your module, you can publish it to make it available for inclusion in a classroom. Once you publish your module, **you will not be able to make any further changes**. 
-
+When you are finished creating your module, you can publish it to make it available for inclusion in a classroom or data challenge. Once you publish your module, **you will not be able to make any further changes**. 

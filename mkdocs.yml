@@ -35,7 +35,8 @@ nav:
         - NDP Classroom: ndp-classroom/index.md
         - Set Up: ndp-classroom/set-up.md
     - NDP Data Challenges:
-        - NDP Data Challenges: ndp-data-challenges/index.md 
+        - For Hosts: ndp-data-challenges/hosting-a-data-challenge.md
+        - For Participants: ndp-data-challenges/participating-in-data-challenge.md 
   - Policies and Guidelines: 
         - Terms of Use: policies/terms-of-use.md
         - Privacy Policy: policies/privacy-policy.md
