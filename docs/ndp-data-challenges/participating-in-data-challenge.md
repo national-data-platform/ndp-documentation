@@ -51,12 +51,10 @@ Once you join a challenge, follow these steps to maximize your participation:
 #### Best Practices for Shared Storage
 
 1. **Coordinate File Modifications**
-   - Shared storage does not support version control, so avoid simultaneous file edits to prevent conflicts.
+    - Shared storage does not support version control, so avoid simultaneous file edits to prevent conflicts.
 
 2. **Optimize Storage Usage**
-   - Use shared storage for frequently accessed code or partial data products essential to your workflow.
+    - Use shared storage for frequently accessed code or partial data products essential to your workflow.
    
 3. **Avoid File Overwrites**
-   - Establish clear team protocols for modifying files to minimize risks of accidental data loss.
-
-By following these guidelines, you can effectively collaborate and contribute to the success of your team in the NDP Data Challenge.
+    - Establish clear team protocols for modifying files to minimize risks of accidental data loss.
