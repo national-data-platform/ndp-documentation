@@ -8,7 +8,7 @@ The National Data Platform's Education Hub aims to democratize access to advance
 
 - [NDP Classroom](../ndp-classroom/index.md): Classroom allows instructors to conduct their courses within NDP. Classrooms incorporate multiple modules and allow students to be assigned to groups for collaborative work.  
 
-- [Data Challenges](../ndp-data-challenges/index.md): Soon.
+- [Data Challenges](../ndp-data-challenges/participating-in-data-challenge.md): Data Challenges provide an opportunity to tackle real-world problems using advanced datasets, computational tools, and AI-driven methods.
 
 ## Portals
 
