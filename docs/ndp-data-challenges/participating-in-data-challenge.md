@@ -43,10 +43,10 @@ Once you join a challenge, follow these steps to maximize your participation:
 
 **NOTE**: If you’re unfamiliar with NDP workspaces, we highly recommend reviewing this brief [tutorial](../workspace/set-up.md) to get started.
 
-### Shared Storage
+### Storage
 
-- Each NDP user is allocated persistent storage on JupyterHub. Upon joining a challenge, your team will receive shared storage identified by the folder name `shared-storage-your-team-name`.
-- Changes made in this folder are visible to all team members and persist across sessions.
+- Each NDP user is allocated **10GB of persistent storage** on JupyterHub labeled as `_User-Persistent-Storage_`. This storage is private and remains available across sessions. 
+- When you join a challenge, your team will receive shared storage labeled as `shared-storage-your-team-name`, also with a **10GB capacity**. Any changes made in this folder are visible to all team members and persist across sessions.
 
 #### Best Practices for Shared Storage
 

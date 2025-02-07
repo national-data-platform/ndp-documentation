@@ -23,7 +23,7 @@ Once in the Hub, you can set up your server by selecting the following fields:
 
 Once JupyterHub is launched, you will notice a `_User-Persistent-Storage_` directory. This directory corresponds to your persistent storage. Make sure to save your work in this directory, otherwise it will be lost when you disconnect from your server.
 
-Every user is given a 50GB storage. If you need more space, contact `ndp@sdsc.edu`. 
+Every user is given a **10GB storage**. If you need more space, contact `ndp@sdsc.edu`. 
 
 ## Stoping your server
 
