@@ -1,6 +1,6 @@
 # What is the National Data Platform ? 
 
-The National Data Platform, or NDP, is a federated and extensible data ecosystem to promote collaboration, innovation, and equitable use of data on top of existing cyberinfrastructure capabilities.
+The National Data Platform, or NDP, is a federated and extensible data ecosystem to promote collaboration, innovation, and use of data on top of existing cyberinfrastructure capabilities.
 
 <img src="../images/main-hub.png" style="border: 2px solid black;">
 
@@ -13,7 +13,7 @@ NDP is aimed to:
 - Cultivate resources for [classroom education](../ndp-classroom/index.md) and [data challenges](../)
 - Assist research and learning through personalized [workspaces](../workspace/index.md)
 
-## Equitable Open Access
+## Open Access
 
 With the development of NDP, we aim to address the following questions: 
 
@@ -22,15 +22,14 @@ With the development of NDP, we aim to address the following questions:
 - What are the foundational data abstractions and services that can serve as multipurpose and expandable building blocks for data-driven and AI-integrated application patterns? 
 - How can everyone effectively access and utilize these abstractions and services?
 
-**Equitable and Open CI Use**
+**Open CI Use**
 
 - How can such foundational data abstractions and services be developed and deployed on top of existing production-ready CI, including storage and the edge-to-HPC continuum?
-- How can we ensure equity of data access and use across distributed CI?
+- How can we ensure data access and use across distributed CI?
 
 **Needs, Requirements and Challenges**
 
 - What are the requirements and challenges for governance of open science, open data and open CI? 
-- What are the required guardrails for protecting privacy, civil rights and civil liberties that will ensure a more equitable use of data systems and services?
 
 ## NDP Workflow
 

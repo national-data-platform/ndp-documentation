@@ -1,6 +1,6 @@
 # NDP Modules
 
-To democratize the learning experience and facilitate knowledge sharing, the National Data Platform provides the opportunity to create NDP Modules.
+To enhance the learning experience and facilitate knowledge sharing, the National Data Platform provides the opportunity to create NDP Modules.
 
 NDP Modules are versatile learning objects deployable in NDP's JupyterHub service. A module is a combination of data, AI/ML models and executable code-primarily in the form of Jupyter Notebooks-to achieve a specific educational or training objective.  
 
@@ -18,7 +18,7 @@ The NDP catalog is rich with datasets covering a wide range of scientific resear
 
 #### Utilize High-Performance Resources
 
-NDP modules provide educators with the computational resources needed for advanced learning. The JupyterHub service integrates GPUs and other high-performance resources to explore AI, machine learning, and other computationally intensive topics that would otherwise be inaccessible, democratizing access to cutting-edge education and knowledge.
+NDP modules provide educators with the computational resources needed for advanced learning. The JupyterHub service integrates GPUs and other high-performance resources to explore AI, machine learning, and other computationally intensive topics, providing access to cutting-edge education and knowledge.
 
 #### Enhance Research Exposure
 
