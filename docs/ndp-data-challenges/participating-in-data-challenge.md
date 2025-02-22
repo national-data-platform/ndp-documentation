@@ -7,7 +7,7 @@ Participating in NDP Data Challenges is an excellent opportunity to collaborate 
 1. **Log in to NDP**
     - Ensure you have an active account and credentials to access the platform.
 2. **Explore Challenges**
-    - Navigate to the *Education Hub* and select [Explore](https://ndp-test.sdsc.edu/educationhub/explore). Challenges are listed according to their publication dates.
+    - Navigate to the *Education Hub* and select [Explore](https://nationaldataplatform.org/educationhub/explore). Challenges are listed according to their publication dates.
 3. **Select a Challenge**
     - Once you find a challenge that interests you, click *Open* to view its details.
 
