@@ -15,15 +15,15 @@ For the registration of a dataset, data providers must fill the following inform
 - **Visibility:** Public or private.
 
 !!! info "Public visibility"
-    In the current version of NDP, all metadatada is registered with public visibility.
+    In the current version of NDP, all metadata is registered with public visibility.
 
-- **Point of contact information:** The name, email address and phone number of the author or mantainer of the dataset.
+- **Point of contact information:** The name, email address and phone number of the author or maintainer of the dataset.
 - **Public Key:** A unique identifier or API key required for accessing the dataset, if applicable. Provide this key if your dataset is hosted behind a restricted access point or requires authentication.
 - **Version:** The current version number or release date of the dataset.
 - **License:** The terms and conditions under which the dataset can be used, shared, or adapted. 
 - **Resources:** Additional URLs, documentation, or materials that provide context or support for the dataset. This may include data dictionaries, user guides, or other supplementary resources that help users understand and work with the dataset.
 - **Optional Custom Fields:** The CKAN ID or URL where the data is derived from (optional) and the size of the whole dataset.
-- **Aditional Information:** Any other relevant details or comments about the dataset that are not captured by the other fields.
+- **Additional Information:** Any other relevant details or comments about the dataset that are not captured by the other fields.
 
 The process to register your data is the following:
 
