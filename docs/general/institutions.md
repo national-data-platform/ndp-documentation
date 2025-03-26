@@ -6,7 +6,7 @@ The National Data Platform is a collaborative effort involving the following lea
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex-basis: 30%; margin: 5px;">
     <a href="https://www.sdsc.edu/">
-      <img src="../images/logos/sdsc-logo.gif" alt="SDSC" style="width: 100%;">
+      <img src="../../images/logos/sdsc-logo.png" alt="SDSC" style="width: 100%;">
     </a>
   </div>
   <div style="flex-basis: 30%; margin: 5px;">
