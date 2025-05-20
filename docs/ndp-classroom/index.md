@@ -24,6 +24,9 @@ Information on how to create a NDP Module can be found in this [page](../ndp-mod
 
 Groups are collaborative instances within a classroom of multiple learners working on the same project or assignment. These groups enable students to include additional resources within JupyterHub, such as additional datasets, models or repositories. Each group is provided with shared persistent storage, allowing for collective work and seamless data management. 
 
+!!! note "PVC Policy"
+    [Review PVC Policy](../policies/pvc-policy.md)
+
 ### **JupyterHub Service**
 
 The JupyterHub service is the central hub where students perform the majority of their work as part of the classroom experience. It provides a robust environment for coding, testing, and executing AI projects. To enhance functionality, JupyterHub includes an [NDP Widget](../jupyter/widget.md): This extension allows students to integrates the resources from their assigned modules to JupyterHub.

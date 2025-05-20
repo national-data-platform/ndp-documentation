@@ -58,3 +58,6 @@ Once you join a challenge, follow these steps to maximize your participation:
    
 3. **Avoid File Overwrites**
     - Establish clear team protocols for modifying files to minimize risks of accidental data loss.
+
+!!! note "PVC Policy"
+    [Review PVC Policy](../policies/pvc-policy.md)
