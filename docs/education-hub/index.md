@@ -4,15 +4,9 @@ The National Data Platform's Education Hub aims to bring access to advanced comp
 
 ## Features
 
-- [NDP Modules](../ndp-modules/index.md): Modules are versatile learning objects that contain data, code, and additional resources that can be deployed and executed in JupyterHub. Modules are intended to provide a hands-on learning experience.
+- [NDP Classroom](../education-hub/classroom/set-up.md): Classroom allows instructors to conduct their courses within NDP. Classrooms incorporate multiple modules and allow students to be assigned to groups for collaborative work.  
 
-- [NDP Classroom](../ndp-classroom/index.md): Classroom allows instructors to conduct their courses within NDP. Classrooms incorporate multiple modules and allow students to be assigned to groups for collaborative work.  
+- [Data Challenges](../education-hub/data-challenges/participating-in-data-challenge.md): Data Challenges provide an opportunity to tackle real-world problems using advanced datasets, computational tools, and AI-driven methods.
 
-- [Data Challenges](../ndp-data-challenges/participating-in-data-challenge.md): Data Challenges provide an opportunity to tackle real-world problems using advanced datasets, computational tools, and AI-driven methods.
-
-## Portals
-
-- **Educator's Portal**: The Educator's Portal is the place where educators can develop and set up their modules and classrooms. Access to the Educator's Portal is obtained through credentials [requested from the NDP team](../general/contact.md).
-
-- **Learner's Portal:** The Learner's Portal manages modules, classrooms, and data challenges for students, requiring prior registration with NDP for access
+For a clear example of an educational activity in NDP, see the [Example Data Challenge and Onboarding](https://nationaldataplatform.org/educationhub/datachallenge/learner/4f8f7f38-a86c-4ecf-ba14-9d5e0b00c919)
 

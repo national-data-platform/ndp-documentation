@@ -3,46 +3,35 @@ site_url: https://nationaldataplatform.org/documentation
 
 nav:
   - Home: index.md
-  - About: 
-    - About NDP: general/about.md
-    - Key Features: general/key-features.md
-    - Institutions: general/institutions.md
-  - Start: 
+  - Welcome: 
+    - What is NDP?: welcome/about.md
+    - Key Features: welcome/key-features.md
+    - Contributors: welcome/contributors.md
+  - Get Started: 
     - Sign In: start/signin.md
-  - Catalog:
-    - Exploring Data Catalog: catalog/catalog.md
-    - Advanced Search: catalog/advanced-search.md
-    - Register your data: catalog/register-data.md
-  - Jupyter:
-    - NDP Jupyterhub: jupyter/jupyterhub.md
-    - NDP Widget: jupyter/widget.md
-    - Bring your own image: jupyter/bring-your-own-image.md
-    - Frequently Encountered Issues: jupyter/fei.md
-  - Workspace: 
-    - NDP Workspace: workspace/index.md
-    - Tutorial: workspace/set-up.md
-  - NDP PoP:
-    - NDP PoP: pop/index.md
-    - Setup Tutorial: pop/setup.md 
-  - NDP Education Hub:
-    - Education Hub: education-hub/index.md
-    - NDP Modules:
-        - NDP Modules: ndp-modules/index.md 
-        - Understanding NDP Modules: ndp-modules/understanding-modules.md
-        - Modules Components: ndp-modules/module-components.md
-        - Module Creation: ndp-modules/module-tutorial.md
-    - NDP Classroom:
-        - NDP Classroom: ndp-classroom/index.md
-        - Set Up: ndp-classroom/set-up.md
-    - NDP Data Challenges:
-        - For Hosts: ndp-data-challenges/hosting-a-data-challenge.md
-        - For Participants: ndp-data-challenges/participating-in-data-challenge.md 
+    - Quick Start Guide: start/quick-start-guide.md 
+  - Explore Data:
+    - Data Catalog: explore-data/catalog.md
+    - Register your Data: explore-data/register-data.md
+  - Workspace:
+    - Overview: workspace/overview.md
+    - Set up Workspace: workspace/set-up.md
+    - Working with a Workspace: workspace/working.md
+    - Use your own Jupyter image: workspace/bring-your-own-image.md
+    - Advanced Connectivity: workspace/endpoints/setup.md
+    - Troubleshooting: workspace/fei.md
+  - Education Hub:
+    - What is the Education Hub?: education-hub/index.md
+    - Create Classroom: education-hub/classroom/set-up.md
+    - Data Challenges:
+        - Host a Data Challenge: education-hub/data-challenges/hosting-a-data-challenge.md
+        - Join a Data Challenge: education-hub/data-challenges/participating-in-data-challenge.md 
   - Policies and Guidelines: 
         - Terms of Use: policies/terms-of-use.md
         - Privacy Policy: policies/privacy-policy.md
         - Code of Conduct: policies/code-of-conduct.md
         - PVC Policy: policies/pvc-policy.md
-  - Contact: general/contact.md
+  - Contact: contact/contact.md
 
 theme:
   name: material
@@ -52,13 +41,13 @@ theme:
     - navigation.top
   palette:
     - scheme: default
-      primary: blue
+      primary: white
       accent: indigo
       toggle:
         icon: material/eye-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: blue
+      primary: white
       accent: indigo
       toggle:
         icon: material/eye
