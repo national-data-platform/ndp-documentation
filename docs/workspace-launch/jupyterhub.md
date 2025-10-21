@@ -56,10 +56,12 @@ As with all Jupyter-launched servers, packages installed within RStudio are not 
 
 - For long-term use, consider creating a customized Docker image that includes all necessary R packages pre-installed.
 
-
 ## Stoping your server
 
 Once you have finished your work, make sure to **stop your server:**
 
 1. On the top left, click on *File*, followed by *Hub Control Panel*.
 2. If you're only running one server, click on *Stop My Server*. If you're running multiple servers, make sure to stop the right server.
+
+!!! info
+    This JupyterHub environment uses computing and storage resources provided by the [National Research Platform (NRP)](https://nrp.ai/). Use of these resources is subject to the [Nautilus Cluster and Acceptable Use policies](https://nrp.ai/documentation/userdocs/start/policies/#acceptable-use-policy).
