@@ -6,7 +6,7 @@ To follow along, we’ve provided a [demo GitHub repository](https://github.com/
 
 ## Setup Instructions
 
-1 - In your Dashboard, click *Add* and select *New Workspace*.
+1 - On the left panel, click *My NDP Hub* and select *New Workspace*.
 
 2 - Complete the workspace form. Since this is a demo, feel free to use the sample text provided in the `README.md` of the tutorial repository.
 
