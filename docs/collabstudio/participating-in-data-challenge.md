@@ -6,60 +6,34 @@ If you're looking for a comprehensive example of how to participate in a Data Ch
 
 ## Joining a Data Challenge
 
-1. **Log in to NDP**
-    - Ensure you have an active account and credentials to access the platform.
-2. **Explore Challenges**
-    - Navigate to the *Education Hub* and select [Explore](https://nationaldataplatform.org/educationhub/explore). Challenges are listed according to their publication dates.
-3. **Select a Challenge**
-    - Once you find a challenge that interests you, click *Open* to view its details.
+1. **Log in to NDP:** Make sure you have an active account and the necessary credentials to access the platform. If you haven't registered with NDP yet, follow [these instructions](../registration.md).
+2. **Explore Challenges:** Navigate to the *Education Hub* and select [Explore](https://nationaldataplatform.org/educationhub/explore). Challenges are listed according to their publication dates.
+3. **Select a Challenge:** Once you find a challenge that interests you, click *View More* to view its details.
+<img src="../images/challenges.png" style="border: 2px solid black;">
 
-4. **Review Information**
-    - Carefully read all the details and instructions before joining a challenge. Joining a challenge involves the allocation of resources, so ensure it aligns with your availability and goals.
+4. **Review Information:** Carefully read all the details and instructions before joining a challenge. 
 
-5. **Join the Challenge**
-    - Click *Join Data Challenge* to initiate team creation.
-    - By default, you will be added to your team as the first member.
-    - If the challenge permits individual participation, you can name your team and proceed.
+5. **Join the Challenge:** Once you have decided you want to join the Data Challenge, click *Register for this Challenge*. You will b
 
-6. **Add Team Members**
-    - Enter the emails of your team members, preferably academic accounts.
-    - Ensure that none of the emails are associated with another active team in the same challenge, as this will prevent team creation.
+Choose one of 3 options: 
 
-7. **Confirm Participation**
-    - Upon successful team creation, you and your team members will become active participants in the challenge.
+- **I am working solo**: Enter a name for your solo team and click *Register for this challenge*.
 
-## Participating in a Data Challenge
+<img src="../images/solo-team.png" style="border: 2px solid black;">
 
-Once you join a challenge, follow these steps to maximize your participation:
+- **I am creating a new team** Enter a team name and add the email addresses of your team members. All members must be registered on NDP before they can be added to a team (unregistered emails will result in an error). You can edit the team member list at any time.
 
-### Working with Workspaces
+<img src="../images/team.png" style="border: 2px solid black;">
 
-- Each team is assigned the challenge's [workspaces](../quick-start/overview.md).
-- These workspaces on JupyterHub.
-- Teams can enhance their workflows by adding additional data from the catalog and integrating custom code.
+- **I want to join an existing team**: Contact an active team and ask them to add you.
 
-### Working on JupyterHub
+After joining a data challenge, you will have access to its content and workspaces. If you’re unfamiliar with NDP workspaces, we highly recommend reviewing this [tutorial](../quick-start/set-up-workspace.md) to get started.
 
-- Before starting, thoroughly review the instructions for the data challenge and each workspace, especially those related to resource reservations.
-- Follow the guidelines to optimize resource usage and align with the challenge's objectives.
+### Shared Storage
 
-**NOTE**: If you’re unfamiliar with NDP workspaces, we highly recommend reviewing this brief [tutorial](../quick-start/set-up-workspace.md) to get started.
+When you join a challenge, your team will receive a shared folder when you launch JupyterHub. The folder will be tagged with your team's name. Any changes made to this folder are visible to all team members and persist across sessions.
 
-### Storage
-
-- Each NDP user is allocated **10GB of persistent storage** on JupyterHub labeled as `_User-Persistent-Storage_`. This storage is private and remains available across sessions. 
-- When you join a challenge, your team will receive shared storage labeled as `shared-storage-your-team-name`, also with a **10GB capacity**. Any changes made in this folder are visible to all team members and persist across sessions.
-
-#### Best Practices for Shared Storage
-
-1. **Coordinate File Modifications**
-    - Shared storage does not support version control, so avoid simultaneous file edits to prevent conflicts.
-
-2. **Optimize Storage Usage**
-    - Use shared storage for frequently accessed code or partial data products essential to your workflow.
-   
-3. **Avoid File Overwrites**
-    - Establish clear team protocols for modifying files to minimize risks of accidental data loss.
-
-!!! note "PVC Policy"
-    [Review PVC Policy](../policies/pvc-policy.md)
+- **Coordinate File Modifications:** Shared storage does not support version control, so avoid simultaneous file edits to prevent conflicts.
+- **Optimize Storage Usage:** Use shared storage for frequently accessed code or partial data products essential to your workflow.
+- **Avoid File Overwrites:** Establish clear team protocols for modifying files to minimize risks of accidental data loss.
+- [**Review the PVC Policy**](../policies/pvc-policy.md)

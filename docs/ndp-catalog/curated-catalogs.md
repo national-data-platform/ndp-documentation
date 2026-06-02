@@ -39,10 +39,12 @@ Curated catalogs can be embedded in a CollabStudio (whether for a Data Challenge
 
 Once you fill up the form, click on Submit.
 
-3 - Go to the Community Catalog and search for the resources to add to your curated catalog. 
+3 - Go to the NDP Catalog and search for the resources to add to your curated catalog. 
 
 4 - Click on add *Add to Catalog*. Select the curated catalog to which you want to add the resource.
 
-## Registering resources for your curated catalog
+## Adding your curated catalog to a CollabStudio
 
-To add addtional resources to your curated catalog, make sure to first register them in the community catalog
+After creating your curated catalog, you can add it to your CollabStudio (project, data challenge or classroom) to facilitate the sharing of the catalog among the members of your collabstudio.
+
+In a Data Challenge or Classroom, the *Add Curated Catalog* field is located at the end of the form when editing the studio. In a Project, it can be found in the right-hand panel.

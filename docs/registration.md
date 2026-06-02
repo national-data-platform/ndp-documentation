@@ -14,10 +14,12 @@ To log in and automatically register on NDP:
 
 <img src="../images/ci-logon.png" style="border: 2px solid black;">
 
-4- Select your institution and click on Log On. You will be prompted to your institution's log in system. 
+4- Select your institution and click Log On. Check the *Remember this selection* box so that you won't have to repeat this step in the future. You will then be directed to your institution's login system. 
 
 <img src="../images/select-institution.png" style="border: 2px solid black;">
 
-5- Use your institutional credentials.
+If you do not see your institution, you can create an [ORCID](https://orcid.org/). **Your email address must be visible to trusted partners**. For more information, email `help@nationaldataplatform.org`.
 
-6- After a successful sign in, you will prompted to your Dashboard. 
+5- Enter your institutional credentials (username and password). After logging in, you will receive an email to verify your account. Make sure to review your inbox and verify your account.
+
+6- After verifying your email, you will prompted to your Dashboard. 

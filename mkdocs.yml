@@ -17,7 +17,7 @@ nav:
       - Overview: workspace-launch/index.md
       - JupyterHub + RStudio: workspace-launch/jupyterhub.md
       - Use your own Jupyter image: workspace-launch/use-your-own-image.md
-  #    - AWS JupyterHub: workspace-launch/aws-jupyterhub.md
+      # - AWS JupyterHub: workspace-launch/aws-jupyterhub.md
   #    - Coder: workspace-launch/coder.md
   #   - NDP Endpoints:
   #     - Overview: ndp-endpoints/overview.md

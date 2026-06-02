@@ -1,22 +1,20 @@
 # Working with a Workspace - Tutorial
 
-In this tutorial, you’ll learn how to work with a Workspace in [JupyterHub](../workspace-launch/jupyterhub.md).
+In this tutorial, you’ll learn how to work with a workspace in [JupyterHub](../workspace-launch/jupyterhub.md).
 
-At this point, you should have completed the Set Up Workspace tutorial. If you haven’t done so yet, we highly recommend completing it first.
+At this point, you should have completed the [Set Up Workspace](../quick-start/set-up-workspace.md) tutorial. If you haven’t done so yet, we highly recommend completing it first.
 
-In the previous tutorial, you set up your first Workspace. Now, you'll launch it and begin working within JupyterHub.
+In the previous tutorial, you set up your first workspace. Now, you'll launch it and begin working within JupyterHub.
 
 #### 1. Launch Your Workspace in JupyterHub
 
-- Go to your Dashboard and click the *View* button for your Demo Workspace.
+- Go to *My Hub* and click your Demo Workspace.
 
-- Scroll down and click the *JupyterHub* button.
+<img src="../images/my-hub.png" style="border: 2px solid black;">
 
-<img src="../images/jupyter-button.png" style="border: 2px solid black;">
+- Scroll down and click the *Launch Options*. Select **NSF National Research Platform**
 
-You can find the same button for any Workspace within your research projects or group workspaces.
-
-<img src="../images/jupyter-button.png" style="border: 2px solid black;">
+<img src="../images/jupyter-launch.png" style="border: 2px solid black;">
 
 #### 2. Configure Your Resources
 
