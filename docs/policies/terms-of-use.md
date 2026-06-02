@@ -52,8 +52,13 @@ We value your privacy and are committed to safeguarding the confidentiality of y
 <br>
 <br>
 <i>Third-Party Services</i>: NDP may interface with third-party services to provide certain features or functionalities (e.g., external data sources or tools). These third-party services may collect and process data in accordance with their own privacy policies. Users should review those policies to understand how their data is handled by these external parties.
-<br>
-<br>
+
+<p>Examples of third-party providers and their applicable terms include:</p>
+<ul>
+  <li><a href="https://nrp.ai/documentation/userdocs/start/policies/#acceptable-use-policy" target="_blank" rel="noopener noreferrer">
+    National Research Platform (NRP) – Acceptable Use Policy
+  </a></li>
+</ul>
 <i>Confidentiality of Data</i>: NDP is an open platform for sharing research data, and it is the responsibility of the user to ensure that any data they submit to NDP is appropriate for open dissemination and complies with all applicable laws, including but not limited to privacy, data protection, and intellectual property rights. Accordingly, users are responsible for identifying the legal and regulatory compliance requirements applicable to their organization and data and enforcing the necessary protocol and best practices to meet these requirements. We disclaim any responsibility or obligation to maintain the confidentiality of any information posted on NDP. <b>Do not upload or store any information on NDP if you are required to maintain its confidentiality or expect it to remain confidential</b>. 
 </div>
 

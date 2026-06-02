@@ -2,30 +2,35 @@ site_name: NDP Documentation
 site_url: https://nationaldataplatform.org/documentation
 
 nav:
-  - Home: index.md
-  - Welcome: 
-    - What is NDP?: welcome/about.md
-    - Key Features: welcome/key-features.md
-    - Contributors: welcome/contributors.md
-  - Get Started: 
-    - Sign In: start/signin.md
-    - Quick Start Guide: start/quick-start-guide.md 
-  - Explore Data:
-    - Data Catalog: explore-data/catalog.md
-    - Register your Data: explore-data/register-data.md
-  - Workspace:
-    - Overview: workspace/overview.md
-    - Set up Workspace: workspace/set-up.md
-    - Working with a Workspace: workspace/working.md
-    - Use your own Jupyter image: workspace/bring-your-own-image.md
-    - Advanced Connectivity: workspace/endpoints/setup.md
-    - Troubleshooting: workspace/fei.md
-  - Education Hub:
-    - What is the Education Hub?: education-hub/index.md
-    - Create Classroom: education-hub/classroom/set-up.md
-    - Data Challenges:
-        - Host a Data Challenge: education-hub/data-challenges/hosting-a-data-challenge.md
-        - Join a Data Challenge: education-hub/data-challenges/participating-in-data-challenge.md 
+  - Welcome to NDP: index.md
+  - NDP Registration and Login: registration.md
+  - Quick Start - Workspaces: 
+      - Overview of Workspaces: quick-start/overview.md
+      - Setup a Workspace: quick-start/set-up-workspace.md
+      - Working with a Workspace: quick-start/working-workspace.md
+  - NDP Catalog:
+    - Overview of NDP Catalog: ndp-catalog/index.md
+    - Search and Explore Data: ndp-catalog/explore-data.md
+    - Contribute to the Catalog: ndp-catalog/contribute.md
+    - Curated Catalogs: ndp-catalog/curated-catalogs.md
+  - Workspace Launch and Compute Options:
+      - Overview: workspace-launch/index.md
+      - JupyterHub + RStudio: workspace-launch/jupyterhub.md
+      - Use your own Jupyter image: workspace-launch/use-your-own-image.md
+      # - AWS JupyterHub: workspace-launch/aws-jupyterhub.md
+  #    - Coder: workspace-launch/coder.md
+  #   - NDP Endpoints:
+  #     - Overview: ndp-endpoints/overview.md
+  #     - Set up your endpoint: ndp-endpoints/set-up.md
+  - CollabStudio:
+    - Overview: collabstudio/index.md
+    - Create a Project: collabstudio/create-project.md
+    - Create Classroom: collabstudio/create-classroom.md
+    - Host a Data Challenge: collabstudio/hosting-a-data-challenge.md
+    - Join a Data Challenge: collabstudio/participating-in-data-challenge.md
+  - Frequently Asked Questions:
+  #  - Logging in Issues: faq/logging-in.md
+    - JupyterHub Issues: faq/jupyterhub.md
   - Policies and Guidelines: 
         - Terms of Use: policies/terms-of-use.md
         - Privacy Policy: policies/privacy-policy.md
