@@ -13,7 +13,7 @@ If you're looking for a comprehensive example of how to participate in a Data Ch
 
 4. **Review Information:** Carefully read all the details and instructions before joining a challenge. 
 
-5. **Join the Challenge:** Once you have decided you want to join the Data Challenge, click *Register for this Challenge*. You will b
+5. **Join the Challenge:** Once you have decided you want to join the Data Challenge, click *Register for this Challenge*.
 
 Choose one of 3 options: 
 
