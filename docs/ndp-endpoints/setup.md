@@ -1,3 +1,0 @@
-# NDP Endpoints
-
-Soon

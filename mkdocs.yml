@@ -19,15 +19,19 @@ nav:
       - Use your own Jupyter image: workspace-launch/use-your-own-image.md
       # - AWS JupyterHub: workspace-launch/aws-jupyterhub.md
   #    - Coder: workspace-launch/coder.md
-  #   - NDP Endpoints:
-  #     - Overview: ndp-endpoints/overview.md
-  #     - Set up your endpoint: ndp-endpoints/set-up.md
   - CollabStudio:
     - Overview: collabstudio/index.md
     - Create a Project: collabstudio/create-project.md
     - Create Classroom: collabstudio/create-classroom.md
     - Host a Data Challenge: collabstudio/hosting-a-data-challenge.md
     - Join a Data Challenge: collabstudio/participating-in-data-challenge.md
+  - NDP Endpoints: 
+    - What is an Endpoint?: ndp-endpoints/00-what-is-an-endpoint.md
+    - Using an Endpoint: ndp-endpoints/01-using-an-endpoint.md   
+    - Resquesting access and the role tiers: ndp-endpoints/02-requesting-access-and-roles.md   
+    - Publishing data: ndp-endpoints/03-publishing-data.md   
+    - Automating with Python: ndp-endpoints/04-automating-with-python.md   
+    - For institutional admins: ndp-endpoints/05-for-institutional-admins.md      
   - Frequently Asked Questions:
   #  - Logging in Issues: faq/logging-in.md
     - JupyterHub Issues: faq/jupyterhub.md
