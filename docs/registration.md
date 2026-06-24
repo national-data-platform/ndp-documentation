@@ -22,4 +22,4 @@ If you do not see your institution, you can create an [ORCID](https://orcid.org/
 
 5- Enter your institutional credentials (username and password). After logging in, you will receive an email to verify your account. Make sure to review your inbox and verify your account.
 
-6- After verifying your email, you will prompted to your Dashboard. 
+6- After verifying your email address, refresh the page to access your Dashboard. 
