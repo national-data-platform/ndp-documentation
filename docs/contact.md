@@ -1,6 +1,6 @@
 # Contact
 
-To report any problem with the platform, email us at `ndp@sdsc.edu`. 
+To report any problem with the platform, email us at `support@nationaldataplatform.org`. 
 
 ## Social Media
 
