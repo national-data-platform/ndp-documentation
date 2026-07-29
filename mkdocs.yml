@@ -40,7 +40,7 @@ nav:
         - Privacy Policy: policies/privacy-policy.md
         - Code of Conduct: policies/code-of-conduct.md
         - PVC Policy: policies/pvc-policy.md
-  - Contact: contact/contact.md
+  - Contact: contact.md
 
 theme:
   name: material
