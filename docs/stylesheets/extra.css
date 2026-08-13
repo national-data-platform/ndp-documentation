@@ -81,7 +81,7 @@ h2 {
 }
 
 h3 {
-    color: #001642;
+    color: #001642 !important;
     font-weight: 600 !important;
 }
 
