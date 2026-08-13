@@ -143,14 +143,14 @@ theme:
     # - toc.integrate
   palette:
     - scheme: ndp-light
-      primary: ndp-light
-      # accent: indigo
+      # primary: ndp-light
+      # accent: ndp-light
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      # primary: ndp-dark
-      # accent: ndp-dark
+      # primary: slate
+      # accent: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
