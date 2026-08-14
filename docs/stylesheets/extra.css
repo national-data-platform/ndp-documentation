@@ -13,6 +13,7 @@
 
 */
 
+/* LIGHT THEME */
 [data-md-color-scheme="ndp-light"] {
   --md-primary-fg-color:        #001642;
   --md-primary-fg-color--light: #F6F9FF;
@@ -20,13 +21,28 @@
   --md-default-bg-color:        #F6F9FF;
 }
 
-[data-md-color-scheme="ndp-dark"] {
-  --md-primary-fg-color:        #001642 !important;
+/* accent color */
+[data-md-color-scheme="ndp-light"] {
+  --md-accent-fg-color: #0039A7 !important;
+}
+
+/* DARK THEME */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #14151a !important;
   --md-primary-fg-color--light: #F6F9FF;
   /* --md-default-fg-color:        #1a1a1a; */
-  --md-default-bg-color:        #001642;
+  /* --md-default-bg-color:        #001642; */
   /* --md-default-bg-color: hsla(var(--md-hue), 15%, 14%, 1); */
 }
+
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #3182CE !important;
+}
+
+[data-md-color-scheme="slate"] h2, h3 {
+    color: #e2e4e9 !important;
+}
+
 /* Light mode overrides */
 /* [data-md-color-scheme="ndp-light"] {
   --md-primary-fg-color:        #F6F9FF;
@@ -62,19 +78,20 @@
 }
 
 h1 {
-    color: #1e3a8a;
+    /* color: #1e3a8a; */
     border-bottom: 2px solid #e2e8f0;
     padding-bottom: 8px;
 }
 
 h2 {
-    color: #2b6cb0;
+    /* color: #2b6cb0; */
+    color: #1e3a8a;
     font-weight: 600 !important;
     /* padding-bottom: 8px; */
 }
 
 h3 {
-    color: #001642;
+    color: #001642 !important;
     font-weight: 600 !important;
 }
 
@@ -101,8 +118,36 @@ h3 {
 } */
 
 /* SIDEBAR - Change sidebar link text and icon colors */
+
+/* left and right sidebar text, i think */
+[data-md-color-scheme="slate"] .md-nav__link {
+    color: #ccc !important;
+}
+
+/* left sidebar header */
+[data-md-color-scheme="slate"] .md-nav__item--nested > label.md-nav__link {
+  color: #F6F9FF !important;
+}
+
+/* left sidebar active item */
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #3182CE !important;
+}
+
+/* [data-md-color-scheme="slate"] .md-nav__title {
+  color: #2b6cb0 !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  text-transform: uppercase; 
+  letter-spacing: 0.05em;
+} */
+
 .md-nav__link {
   color: #333333 !important; 
+}
+
+.md-nav__link:hover {
+  opacity: 0.75; 
 }
 
 .md-nav__item--nested > label.md-nav__link {
@@ -115,7 +160,7 @@ h3 {
 
 /* Color of the active page highlight in the sidebar */
 .md-nav__link--active {
-  color: #0039A7 !important;
+  color: #3182CE !important;
   font-weight: bold;
 }
 
@@ -125,6 +170,11 @@ h3 {
   font-size: 15px !important;
   text-transform: uppercase; 
   letter-spacing: 0.05em;
+}
+
+/* scrollbar */
+* {
+  scrollbar-color: #C4C7CC transparent !important;
 }
 
 /* .md-nav__item--nested > .md-nav__link {

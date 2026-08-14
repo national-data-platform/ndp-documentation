@@ -7,7 +7,7 @@ nav:
       - Overview of features: getting-started/overview-of-features.md
       - Creating an account: getting-started/registration.md
       - Common Use Cases:
-          - All-purpose general users: getting-started/common-use-cases/general-users.md
+          - General users: getting-started/common-use-cases/general-users.md
           - Students in classroom: getting-started/common-use-cases/students.md
           - Participants in data challenge: getting-started/common-use-cases/data-challenge.md
       - Catalog:
@@ -38,7 +38,7 @@ nav:
           - Code of Conduct: policies/code-of-conduct.md
           - PVC Policy: policies/pvc-policy.md
   - For Educators:
-      - Examples of live classrooms: educators/examples.md
+      - Examples of real classrooms: educators/examples.md
       - How to host a classroom: educators/host-classroom.md
       - How to plan compute for your class: educators/plan-compute.md
       - How to add teaching assistants: educators/add-ta.md
@@ -46,7 +46,7 @@ nav:
       - Can students submit work: educators/submitting-work.md
       - Resources for students: educators/student-resources.md
   - For Data Challenge Hosts:
-      - Examples of live data challenges: data-challenge/examples.md
+      - Examples of real data challenges: data-challenge/examples.md
       - How to host a data challenge: data-challenge/host-challenge.md
       - How to view submissions: data-challenge/submissions.md
       - Resources for participants: data-challenge/participant-resources.md
@@ -70,6 +70,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: docs/docs_overrides
   font:
     text: Inter
     code: Roboto Mono
@@ -89,7 +90,7 @@ theme:
     # - navigation.expand
     - navigation.footer
     # - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
@@ -105,14 +106,14 @@ theme:
     # - toc.integrate
   palette:
     - scheme: ndp-light
-      primary: ndp-light
-      # accent: indigo
+      # primary: ndp-light
+      # accent: ndp-light
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      # primary: ndp-dark
-      # accent: ndp-dark
+      # primary: slate
+      # accent: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -120,12 +121,13 @@ theme:
 
 # Plugins
 # plugins:
-  # - search:
-  #     separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+#   - search:
+#       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   # - minify:
   #     minify_html: true
 
 extra:
+  homepage: https://www.nationaldataplatform.org
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/nationaldataplatform/
