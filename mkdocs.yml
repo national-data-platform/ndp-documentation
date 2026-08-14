@@ -26,10 +26,12 @@ nav:
       - Endpoints:
           # - "Workspace: How to launch into R Studio": workspace-launch/jupyterhub.md
           # - "Workspace: How to use your own Jupyter image": workspace-launch/use-your-own-image.md
-          - "Basics and examples": endpoints/basics.md
-          - "Obtaining an endpoint": endpoints/obtain-endpoint.md
-          - "Publish or modify data on endpoint": endpoints/using-endpoint.md
-          - "Automate with Python": endpoints/automate-with-python.md
+          - "Basics and examples": getting-started/endpoints/basics.md
+          - "Using an endpoint": getting-started/endpoints/using-endpoint.md
+          - "Requesting access": getting-started/endpoints/requesting-access.md
+          - "Publish or modify data on endpoint": getting-started/endpoints/publishing-data.md
+          - "Automate with Python": getting-started/endpoints/automate-with-python.md
+          - "Obtaining an endpoint": getting-started/endpoints/obtain-endpoint.md
       - Policies and Guidelines:
           - Terms of Use: policies/terms-of-use.md
           - Privacy Policy: policies/privacy-policy.md
@@ -65,45 +67,6 @@ nav:
       - (Education Hub) Data challenges: faq/education-hub-data-challenge.md
       # - Docker: faq/docker.md
   - Support and Contact: contact.md
-
-  # - NDP Registration and Login: registration.md
-  # - Quick Start - Workspaces:
-  # - Overview of Workspaces: quick-start/overview.md
-  #     - Setup a Workspace: quick-start/set-up-workspace.md
-  #     - Working with a Workspace: quick-start/working-workspace.md
-  # - NDP Catalog:
-  #     - Overview of NDP Catalog: ndp-catalog/index.md
-  # - Search and Explore Data: ndp-catalog/explore-data.md
-  # - Contribute to the Catalog: ndp-catalog/contribute.md
-  # - Curated Catalogs: ndp-catalog/curated-catalogs.md
-  # - Workspace Launch and Compute Options:
-  #     - Overview: workspace-launch/index.md
-  #     - JupyterHub + RStudio: workspace-launch/jupyterhub.md
-  #     - Use your own Jupyter image: workspace-launch/use-your-own-image.md
-  # - AWS JupyterHub: workspace-launch/aws-jupyterhub.md
-  #    - Coder: workspace-launch/coder.md
-  # - CollabStudio:
-  #     - Overview: collabstudio/index.md
-  #     - Create a Project: collabstudio/create-project.md
-  #     - Create Classroom: collabstudio/create-classroom.md
-  #     - Host a Data Challenge: collabstudio/hosting-a-data-challenge.md
-  #     - Join a Data Challenge: collabstudio/participating-in-data-challenge.md
-  # - NDP Endpoints:
-  #     - What is an Endpoint?: ndp-endpoints/00-what-is-an-endpoint.md
-  #     - Using an Endpoint: ndp-endpoints/01-using-an-endpoint.md
-  #     - Resquesting access and the role tiers: ndp-endpoints/02-requesting-access-and-roles.md
-  #     - Publishing data: ndp-endpoints/03-publishing-data.md
-  #     - Automating with Python: ndp-endpoints/04-automating-with-python.md
-  #     - For institutional admins: ndp-endpoints/05-for-institutional-admins.md
-  # - Policies and Guidelines:
-  #     - Terms of Use: policies/terms-of-use.md
-  #     - Privacy Policy: policies/privacy-policy.md
-  #     - Code of Conduct: policies/code-of-conduct.md
-  #     - PVC Policy: policies/pvc-policy.md
-  # - Frequently Asked Questions:
-  #     #  - Logging in Issues: faq/logging-in.md
-  #     - JupyterHub Issues: faq/jupyterhub.md
-  # - Contact: contact.md
 
 theme:
   name: material
