@@ -4,7 +4,7 @@ To set up a classroom, you must have professor credentials. To obtain them, plea
 
 The general steps to create and set-up an NDP classroom are the following:
 
-1. Before you can create a classroom, you must have [set up your workspaces](../quick-start/set-up-workspace.md).
+1. Before you can create a classroom, you must have [set up your workspaces](../getting-started/workspaces/create-workspace.md).
 2. Go to your Dashboard. 
 3. Click *Add* and select *New Classroom*. 
 4. Fill in the main clasroom information:

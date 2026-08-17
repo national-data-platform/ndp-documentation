@@ -12,8 +12,8 @@ nav:
           - Participants in data challenge: getting-started/common-use-cases/data-challenge.md
       - Catalog:
           - "Basics and examples": getting-started/catalog/basics.md
-          - "How to add assets to catalog": getting-started/catalog/add-assets.md
           - "How to search catalog": getting-started/catalog/search.md
+          - "How to add assets to catalog": getting-started/catalog/add-assets.md
           - "How to use contextual insights": getting-started/catalog/contextual-insights.md
           - "How to compile a collection of assets": getting-started/catalog/curated-catalog.md
       - Workspaces:
@@ -46,7 +46,7 @@ nav:
       - Can students submit work: educators/submitting-work.md
       - Resources for students: educators/student-resources.md
   - For Data Challenge Hosts:
-      - Examples of real data challenges: data-challenge/examples.md
+      - Data Challenge basics: data-challenge/basics.md
       - How to host a data challenge: data-challenge/host-challenge.md
       - How to view submissions: data-challenge/submissions.md
       - Resources for participants: data-challenge/participant-resources.md

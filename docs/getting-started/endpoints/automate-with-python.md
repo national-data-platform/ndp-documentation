@@ -1,4 +1,4 @@
-# Automating with Python
+# Automate with Python
 
 Every operation an Endpoint exposes through its web app is also available from
 code, either by calling its **HTTP API** directly (interactive docs at

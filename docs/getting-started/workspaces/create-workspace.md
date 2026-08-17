@@ -1,4 +1,4 @@
-# Set Up Workspace – Tutorial
+# How to create a workspace
 
 In this tutorial, you’ll learn how to create and configure your first workspace.
 
@@ -32,4 +32,4 @@ To follow along, we’ve provided a [demo GitHub repository](https://github.com/
 
 <img src="../images/add-repository.png" style="border: 2px solid black;">
 
-We have finished setting up our first workspace. Now, we will run it using the JupyterHub service. Proceed to the next tutorial: [Working with a Workspace](../quick-start/working-workspace.md).
+We have finished setting up our first workspace. Now, we will run it using the JupyterHub service. Proceed to the next tutorial: [How to launch workspace](./launch-workspace.md).

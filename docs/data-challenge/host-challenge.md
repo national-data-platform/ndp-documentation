@@ -1,6 +1,6 @@
 # Hosting a Data Challenge on NDP
 
-This page offers guidelines for scientists, educators, and policymakers interested in hosting data challenges through the NDP Education Hub. Before creating a challenge, we recommend reviewing [this tutorial](https://nationaldataplatform.org/datachallengeonboarding.pdf), which showcases an example of a Data Challenge hosted on NDP.
+This page offers guidelines for scientists, educators, and policymakers interested in hosting data challenges through the NDP Education Hub. 
 
 ## Preparing Your Challenge
 
@@ -10,20 +10,21 @@ Before creating your challenge on NDP, ensure you have the following information
 
 Hosting data challenges is restricted to collaborators with educator credentials. To obtain these credentials, [contact us](../contact.md) to make your request.
 
-### Explore Data Catalog / Register Your Data
+### Explore Catalog / Register Your Data
 
-The data for your challenge must be available through the NDP catalog. You can either use data accessible via the [Data Catalog](../ndp-catalog/index.md) or [register your data](../ndp-catalog/contribute.md).
+The data for your challenge must be available through the NDP catalog. You can either use data accessible via the [catalog](../getting-started/catalog/basics.md)) or [register your data](../getting-started/catalog/add-assets.md).
 
 ### Prepare Your Workspaces
 
 Workpsaces are hands-on resources for participants working on NDP. Before publishing your challenge, ensure all relevant workspaces are included. These workspaces can include:
-    - A supporting workspace to train participants on interacting with datasets or models.
-    - A base solution for the challenge.
-    - A base workspace to facilitate team workflow development.
+
+- A supporting workspace to train participants on interacting with datasets or models.
+- A base solution for the challenge.
+- A base workspace to facilitate team workflow development.
 
 It is essential to test workspaces before publication to ensure they function correctly and specify the resources participants need to reserve when working on JupyterHub.
 
-Learn more about workspaces in [this section](../quick-start/overview.md).
+Learn more about workspaces in [this section](../getting-started/workspaces/basics.md)
 
 ## Setting Up Your Challenge
 
@@ -42,7 +43,7 @@ Learn more about workspaces in [this section](../quick-start/overview.md).
     - **Rules**: Specify all rules, such as eligibility, platform usage guidelines, and disqualifying actions.
     - **Prize**: If applicable, include prize details for display on the *Explore* page.
     - **FAQ**: Add potential Frequently Asked Questions.
-    - **Dataset Details**: Include metadata, supporting resources, and data distribution for training, validation, and testing. Ensure the data is [registered in the data catalog](../ndp-catalog/contribute.md) and accessible through a workspace.
+    - **Dataset Details**: Include metadata, supporting resources, and data distribution for training, validation, and testing. Ensure the data is [registered in the data catalog](../getting-started/catalog/add-assets.md) and accessible through a workspace.
 6. **Add Workspaces**:
     - Click on *Add a module* to include workspaces in your Data Challenge. Only published workspaces will be available in the dropdown menu.
     - Ensure the challenge description clearly outlines the workspace workflow.

@@ -1,4 +1,4 @@
-# Working with a Workspace - Tutorial
+# How to launch workspace
 
 In this tutorial, you’ll learn how to work with a workspace in [JupyterHub](../workspace-launch/jupyterhub.md).
 

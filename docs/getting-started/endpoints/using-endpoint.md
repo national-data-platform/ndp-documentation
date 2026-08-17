@@ -25,7 +25,7 @@ NDP. You do not create a separate Endpoint account, and commercial emails
 (Gmail, Outlook, etc.) are not eligible.
 
 Once you are logged in, the Endpoint reads your identity and your role (more on
-roles in [Requesting access and the role tiers](02-requesting-access-and-roles.md)).
+roles in [Requesting access](requesting-access.md)).
 A user without a role can still **see and search public data**; write actions
 require an explicit role.
 
@@ -62,11 +62,11 @@ you expect:
 If your role is **read-only** ("viewer", or no role at all), the Endpoint will
 show your search results but will not show the **`+ New`** menu or the S3
 Management entry. To publish, you need to **request access** — see
-[Requesting access and the role tiers](02-requesting-access-and-roles.md).
+[Requesting access](requesting-access.md).
 
 ## Want to automate?
 
 Anything you do through the web app is also available through the Endpoint's
 HTTP API (`/ep-api/docs` for interactive documentation) and through the
 [`ndp-ep`](https://pypi.org/project/ndp-ep/) Python library. See
-[Automating with Python](04-automating-with-python.md).
+[Automate with Python](automate-with-python.md).

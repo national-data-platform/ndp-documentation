@@ -8,25 +8,21 @@ NDP users can create curated catalogs to collect and organize multiple resources
 
 Add curated catalogs to your user profile to showcase the resources you use in specific projects or find particularly valuable. As a subject matter expert, this is also a great way to recommend high-quality resources to the community.
 
-<!--<img src="../pics/profile.png" style="border: 2px solid black;"-->
-
 
 **Organization Highlight**
 
-Organizations can create curated catalogs to highlight the resources they have contributed to Wildfire Commons, helping users explore and engage with their offerings more easily.
-
-<!--<img src="../pics/organization.png" style="border: 2px solid black;">-->
+Organizations can create curated catalogs to highlight the resources they have contributed to NDP, helping users explore and engage with their offerings more easily.
 
 
 **CollabStudio**
 
 Curated catalogs can be embedded in a CollabStudio (whether for a Data Challenge or a Project) providing studio members with streamlined access to relevant resources.
 
-<!--<img src="../pics/CollabStudio.png" style="border: 2px solid black;">-->
-
 ## Create your curated catalog
 
-1 - Go to your Hub and click on *New Curated Catalog*
+1 - Go to your Research Hub and click on *New Curated Catalog*
+
+<img src="../images/new-cc.png" style="border: 2px solid black;">
 
 2 - Fill up the setup form with the following information:
     
@@ -42,6 +38,8 @@ Once you fill up the form, click on Submit.
 3 - Go to the NDP Catalog and search for the resources to add to your curated catalog. 
 
 4 - Click on add *Add to Catalog*. Select the curated catalog to which you want to add the resource.
+
+<img src="../images/add-cc.png" style="border: 2px solid black;">
 
 ## Adding your curated catalog to a CollabStudio
 

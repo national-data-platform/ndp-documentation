@@ -56,8 +56,8 @@ periodic status reports).
 | If you are… | You typically need… |
 |---|---|
 | A **researcher**, **educator**, or **student** consuming data on NDP | **No Endpoint.** Use the central NDP at [nationaldataplatform.org](https://nationaldataplatform.org/) to search the catalog, launch workspaces, and download data. |
-| A researcher **publishing your own data** through your institution's Endpoint | **No new Endpoint.** Use the EP that your institution already runs — see [Using an Endpoint](01-using-an-endpoint.md). |
-| An **institution, lab, or project** that wants to publish its own data into NDP under its own brand and policies | **An Endpoint of your own.** See [For institutional admins](05-for-institutional-admins.md). |
+| A researcher **publishing your own data** through your institution's Endpoint | **No new Endpoint.** Use the EP that your institution already runs — see [Using an endpoint](using-endpoint.md). |
+| An **institution, lab, or project** that wants to publish its own data into NDP under its own brand and policies | **An Endpoint of your own.** See [Obtaining an endpoint](obtain-endpoint.md). |
 
 ## What the Endpoint is *not*
 
@@ -72,12 +72,12 @@ periodic status reports).
 
 ## Related pages
 
-- [Using an Endpoint](01-using-an-endpoint.md) — for researchers and educators.
-- [Requesting access and the role tiers](02-requesting-access-and-roles.md) —
+- [Using an endpoint](using-endpoint.md) — for researchers and educators.
+- [Requesting access](requesting-access.md) —
   how to be allowed to publish.
-- [Publishing data](03-publishing-data.md) — the `+ New` flows.
-- [Automating with Python](04-automating-with-python.md) — the `ndp-ep` library.
-- [For institutional admins](05-for-institutional-admins.md) — getting an
+- [Publish or modify data on an endpoint](publishing-data.md) — the `+ New` flows.
+- [Automate with Python](automate-with-python.md) — the `ndp-ep` library.
+- [Obtaining an endpoint](obtain-endpoint.md) — getting an
   Endpoint for your organization.
 
 The source code for the Endpoint API and web app lives at
