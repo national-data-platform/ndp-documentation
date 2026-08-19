@@ -18,7 +18,7 @@ To log in and automatically register on NDP:
 
 <img src="../images/select-institution.png" style="border: 2px solid black;">
 
-If you do not see your institution, you can create an [ORCID](https://orcid.org/). **Your email address must be visible to trusted partners**. For more information, email `help@nationaldataplatform.org`.
+If you do not see your institution, you can create an [ORCID](https://orcid.org/). **Your email address must be visible to trusted partners**. For more information, email `support@nationaldataplatform.org`.
 
 5- Enter your institutional credentials (username and password). After logging in, you will receive an email to verify your account. Make sure to review your inbox and verify your account.
 

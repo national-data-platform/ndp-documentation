@@ -2,77 +2,146 @@ site_name: NDP Documentation
 site_url: https://nationaldataplatform.org/documentation
 
 nav:
-  - Welcome to NDP: index.md
-  - NDP Registration and Login: registration.md
-  - Quick Start - Workspaces: 
-      - Overview of Workspaces: quick-start/overview.md
-      - Setup a Workspace: quick-start/set-up-workspace.md
-      - Working with a Workspace: quick-start/working-workspace.md
-  - NDP Catalog:
-    - Overview of NDP Catalog: ndp-catalog/index.md
-    - Search and Explore Data: ndp-catalog/explore-data.md
-    - Contribute to the Catalog: ndp-catalog/contribute.md
-    - Curated Catalogs: ndp-catalog/curated-catalogs.md
-  - Workspace Launch and Compute Options:
-      - Overview: workspace-launch/index.md
-      - JupyterHub + RStudio: workspace-launch/jupyterhub.md
-      - Use your own Jupyter image: workspace-launch/use-your-own-image.md
-      # - AWS JupyterHub: workspace-launch/aws-jupyterhub.md
-  #    - Coder: workspace-launch/coder.md
-  - CollabStudio:
-    - Overview: collabstudio/index.md
-    - Create a Project: collabstudio/create-project.md
-    - Create Classroom: collabstudio/create-classroom.md
-    - Host a Data Challenge: collabstudio/hosting-a-data-challenge.md
-    - Join a Data Challenge: collabstudio/participating-in-data-challenge.md
-  - NDP Endpoints: 
-    - What is an Endpoint?: ndp-endpoints/00-what-is-an-endpoint.md
-    - Using an Endpoint: ndp-endpoints/01-using-an-endpoint.md   
-    - Resquesting access and the role tiers: ndp-endpoints/02-requesting-access-and-roles.md   
-    - Publishing data: ndp-endpoints/03-publishing-data.md   
-    - Automating with Python: ndp-endpoints/04-automating-with-python.md   
-    - For institutional admins: ndp-endpoints/05-for-institutional-admins.md      
-  - Frequently Asked Questions:
-  #  - Logging in Issues: faq/logging-in.md
-    - JupyterHub Issues: faq/jupyterhub.md
-  - Policies and Guidelines: 
-        - Terms of Use: policies/terms-of-use.md
-        - Privacy Policy: policies/privacy-policy.md
-        - Code of Conduct: policies/code-of-conduct.md
-        - PVC Policy: policies/pvc-policy.md
-  - Contact: contact.md
+  # - Home: index.md
+  - Getting Started:
+      - Overview of features: getting-started/overview-of-features.md
+      - Creating an account: getting-started/registration.md
+      - Common Use Cases:
+          - General users: getting-started/common-use-cases/general-users.md
+          - Students in classroom: getting-started/common-use-cases/students.md
+          - Participants in data challenge: getting-started/common-use-cases/data-challenge.md
+      - Catalog:
+          - "Basics and examples": getting-started/catalog/basics.md
+          - "How to search catalog": getting-started/catalog/search.md
+          - "How to add assets to catalog": getting-started/catalog/add-assets.md
+          - "How to use contextual insights": getting-started/catalog/contextual-insights.md
+          - "How to compile a collection of assets": getting-started/catalog/curated-catalog.md
+      - Workspaces:
+          - "Basics and examples": getting-started/workspaces/basics.md
+          - "How to create workspace": getting-started/workspaces/create-workspace.md
+          - "How to launch workspace": getting-started/workspaces/launch-workspace.md
+          - "How to share workspace": getting-started/workspaces/share-workspace.md
+          - "Launch with R Studio": getting-started/workspaces/launch-r-studio.md
+          - "Launch with your own Jupyter image": getting-started/workspaces/use-custom-image.md
+      - Endpoints:
+          # - "Workspace: How to launch into R Studio": workspace-launch/jupyterhub.md
+          # - "Workspace: How to use your own Jupyter image": workspace-launch/use-your-own-image.md
+          - "Basics and examples": getting-started/endpoints/basics.md
+          - "Using an endpoint": getting-started/endpoints/using-endpoint.md
+          - "Requesting access": getting-started/endpoints/requesting-access.md
+          - "Publish or modify data on endpoint": getting-started/endpoints/publishing-data.md
+          - "Automate with Python": getting-started/endpoints/automate-with-python.md
+          - "Obtaining an endpoint": getting-started/endpoints/obtain-endpoint.md
+      - Policies and Guidelines:
+          - Terms of Use: policies/terms-of-use.md
+          - Privacy Policy: policies/privacy-policy.md
+          - Code of Conduct: policies/code-of-conduct.md
+          - PVC Policy: policies/pvc-policy.md
+  - For Educators:
+      - Examples of real classrooms: educators/examples.md
+      - How to host a classroom: educators/host-classroom.md
+      - How to plan compute for your class: educators/plan-compute.md
+      - How to add teaching assistants: educators/add-ta.md
+      - How to add students: educators/add-students.md
+      - Can students submit work: educators/submitting-work.md
+      - Resources for students: educators/student-resources.md
+  - For Data Challenge Hosts:
+      - Data Challenge basics: data-challenge/basics.md
+      - How to host a data challenge: data-challenge/host-challenge.md
+      - How to view submissions: data-challenge/submissions.md
+      #- Resources for participants: data-challenge/participant-resources.md
+  # - For Workshop Hosts:
+  #     - Examples of workshops: contact.md
+  #     - How to host a workshop: contact.md
+  - Technical Tutorials:
+      - Jupyter 101: technical-tutorials/jupyter-101.md
+      #- Docker 101: technical-tutorials/docker-101.md
+  - FAQ:
+      - Registration and login: faq/registration-login.md
+      - Catalog basics: faq/catalog-basics.md
+      #- Catalog troubleshooting: faq/catalog-troubleshooting.md
+      - Workspaces: faq/workspaces.md
+      - Jupyter basics: faq/jupyter.md
+      - Jupyter troubleshooting: faq/jupyter-troubleshooting.md
+      #- (Education Hub) Classrooms: faq/education-hub-classroom.md
+      #- (Education Hub) Data challenges: faq/education-hub-data-challenge.md
+      # - Docker: faq/docker.md
+  - Support and Contact: contact.md
 
 theme:
   name: material
-  logo: images/logos/ndp-logo.png
+  custom_dir: docs/docs_overrides
+  font:
+    text: Inter
+    code: Roboto Mono
+  # logo: images/logos/ndp-logo.png
+  logo: images/logos/ndp-logo-light.png
+  favicon: images/ndp-favicon-light.png
   features:
+    # - content.action.edit
+    # - content.action.view
+    - content.code.annotate
     - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    # - navigation.indexes
+    - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
   palette:
-    - scheme: default
-      primary: white
-      accent: indigo
+    - scheme: ndp-light
+      # primary: ndp-light
+      # accent: ndp-light
       toggle:
-        icon: material/eye-outline
+        icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: white
-      accent: indigo
+      # primary: slate
+      # accent: slate
       toggle:
-        icon: material/eye
+        icon: material/weather-sunny
         name: Switch to light mode
-repo_url: https://github.com/national-data-platform
+# repo_url: https://github.com/national-data-platform
+
+# Plugins
+# plugins:
+#   - search:
+#       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  # - minify:
+  #     minify_html: true
 
 extra:
+  homepage: https://www.nationaldataplatform.org
   social:
-    - icon: fontawesome/brands/instagram 
+    - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/nationaldataplatform/
-    - icon: fontawesome/brands/x-twitter 
+    - icon: fontawesome/brands/x-twitter
       link: https://x.com/natldataplat
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/national-data-platform/
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - tables
   - pymdownx.highlight:
       anchor_linenums: true

@@ -1,0 +1,15 @@
+/* Left sidebar navigation (site nav) */
+.md-nav {
+  font-size: 0.8rem; /* default is usually 0.65rem-ish, adjust up */
+}
+
+/* If you also want the top-level nav items larger specifically */
+.md-nav__item {
+  font-size: 0.8rem;
+}
+
+/* Right-hand table-of-contents sidebar too, if desired */
+.md-nav--secondary .md-nav__link {
+  font-size: 0.8rem;
+}
+
