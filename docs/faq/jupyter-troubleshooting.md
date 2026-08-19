@@ -3,15 +3,27 @@
 This section addresses some of the most common issues users encounter.
 
 ### My requirements are not being installed
+
+If you're trying to install requirements from a `requirements.txt` file, make sure you're in the correct path so the install button can detect the file. You must be located in the same directory as the `requirements.txt` file. You can confirm your directory through the *Current Folder* window in the extension.
+
 ### My workspace assets were not downloaded
+
+Assets can be downloaded directly using the download button only if they are provided as direct download URLs. Check the catalog entry to confirm this is the case. Otherwise, refer to the information in the asset entry for instructions on how to access it.
+
 ### My files were not saved
-### My python notebook is not reading the directory 
-restart kernel?
-### "Secure connection failed" 
-try another browser?
-### I clicked “Start server” multiple times and my Jupyter doesn’t seem to launch
 
+JupyterHub sessions do not persist files by default. If you need your files to be available across sessions, make sure to save them in either your **user persistent storage** or a **group shared storage**.
 
+### My Python notebook is not reading the directory
+
+Sometimes, when new files are added to a path, the kernel may not detect them, leading to errors when executing a cell in a notebook. Restarting the kernel typically resolves this by refreshing the recognized paths.
+
+### I clicked "Start Server" multiple times and my Jupyter session doesn't seem to launch
+
+NDP's main JupyterHub is hosted by the National Research Platform. As a shared research cluster, it operates on a first-come, first-served basis. If your session isn't launching, one of the following may be happening:
+
+- The cluster is undergoing maintenance.
+- There are no nodes currently available to fulfill your request.
 
 ### Error HTTP 401: Unauthorized (Your session has expired. Please log out and log in again)
 
@@ -71,9 +83,3 @@ When you try to add a dataset to your current folder, it is possible that you en
 The issue encountered occurs because the dataset from the catalog lacks valid download links to supported file formats. To ensure successful downloads, the dataset must provide direct links to valid data formats, such as CSV, TXT, TIFF, ZIP, etc. If the dataset includes links to unsupported formats, like HTML pages or shared drive links (e.g., Google Drive, Dropbox), the download process will fail.
 
 Please verify that the catalog contains proper direct links to downloadable files in the supported formats. If these links are not available, consider using an alternative method to upload your data, such as directly uploading it to Jupyter or accessing it through an API.
-
-#### My files were not saved
-
-Files are not persistent across sessions unless you save them in your `User_Persistent_Storage` folder or a team folder.
-
-<img src="../images/user-persistent-storage.png">

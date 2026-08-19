@@ -49,22 +49,22 @@ nav:
       - Data Challenge basics: data-challenge/basics.md
       - How to host a data challenge: data-challenge/host-challenge.md
       - How to view submissions: data-challenge/submissions.md
-      - Resources for participants: data-challenge/participant-resources.md
+      #- Resources for participants: data-challenge/participant-resources.md
   # - For Workshop Hosts:
   #     - Examples of workshops: contact.md
   #     - How to host a workshop: contact.md
   - Technical Tutorials:
       - Jupyter 101: technical-tutorials/jupyter-101.md
-      - Docker 101: technical-tutorials/docker-101.md
+      #- Docker 101: technical-tutorials/docker-101.md
   - FAQ:
       - Registration and login: faq/registration-login.md
       - Catalog basics: faq/catalog-basics.md
-      - Catalog troubleshooting: faq/catalog-troubleshooting.md
+      #- Catalog troubleshooting: faq/catalog-troubleshooting.md
       - Workspaces: faq/workspaces.md
       - Jupyter basics: faq/jupyter.md
       - Jupyter troubleshooting: faq/jupyter-troubleshooting.md
-      - (Education Hub) Classrooms: faq/education-hub-classroom.md
-      - (Education Hub) Data challenges: faq/education-hub-data-challenge.md
+      #- (Education Hub) Classrooms: faq/education-hub-classroom.md
+      #- (Education Hub) Data challenges: faq/education-hub-data-challenge.md
       # - Docker: faq/docker.md
   - Support and Contact: contact.md
 
